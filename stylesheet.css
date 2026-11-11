@@ -1,0 +1,15 @@
+.pin-screenshot {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.pin-screenshot-close {
+    background-color: rgba(25, 25, 25, 0.8);
+    color: white;
+    border-radius: 0 0 0 6px;
+    padding: 0;
+    margin: 0;
+}
+.pin-screenshot-close:hover { background-color: rgba(180, 35, 35, 0.95); }

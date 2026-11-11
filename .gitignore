@@ -1,0 +1,20 @@
+# Generated extension bundles
+/dist/
+*.shell-extension.zip
+
+# Compiled GSettings schemas (keep the source XML)
+/schemas/gschemas.compiled
+
+# Local Python environments and caches
+/venv/
+/.venv/
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store

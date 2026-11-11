@@ -1,0 +1,11 @@
+{
+  "uuid": "pin-screenshot@naiiren",
+  "name": "Pin Screenshot",
+  "description": "Pin native GNOME screenshots above your windows for comparison.",
+  "shell-version": [
+    "50"
+  ],
+  "version": 2,
+  "settings-schema": "org.gnome.shell.extensions.pin-screenshot",
+  "url": "https://github.com/naiiren/pin-screenshot"
+}

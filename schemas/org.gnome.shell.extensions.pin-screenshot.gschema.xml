@@ -1,0 +1,35 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pin-screenshot" path="/org/gnome/shell/extensions/pin-screenshot/">
+    <key name="show-panel-icon" type="b">
+      <default>false</default>
+      <summary>Show panel icon</summary>
+    </key>
+    <key name="auto-pin" type="b">
+      <default>false</default>
+      <summary>Pin ordinary native screenshots</summary>
+    </key>
+    <key name="image-opacity" type="i">
+      <range min="10" max="100" />
+      <default>100</default>
+      <summary>Image opacity percent</summary>
+    </key>
+    <key name="border-opacity" type="i">
+      <range min="0" max="100" />
+      <default>10</default>
+      <summary>Border opacity percent</summary>
+    </key>
+    <key name="border-width" type="i">
+      <range min="1" max="8" />
+      <default>5</default>
+      <summary>Border width in logical pixels</summary>
+    </key>
+    <key name="show-shadow" type="b">
+      <default>true</default>
+      <summary>Show pin shadow</summary>
+    </key>
+    <key name="pin-shortcut" type="as">
+      <default>['&lt;Control&gt;Print']</default>
+      <summary>Capture and pin shortcut</summary>
+    </key>
+  </schema>
+</schemalist>
